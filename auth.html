@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication | TaskMaster</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/auth.css">
+
+</head>
+<body>
+    <div class="deco-circle-left deco-elements"> <img src="/asset/bg1.png"></div>
+    <div class="deco-bounce deco-elements"> <img src="/asset/bg2.png"></div>
+    <div class="deco-triangle deco-elements"> <img src="/asset/bg3.png"></div>
+    <div class="deco-circle-right deco-elements"> <img src="/asset/bg4.png"></div>
+
+    <div class="glow-color-purple background-glow"></div>
+    <div class="glow-color-blue background-glow"></div>
+    <div class="glow-color-yellow background-glow"></div>
+
+
+    <div class="app-auth-card"> <div class="app-auth-card__heading"> <div class="app-auth-card__icon-box"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big-icon lucide-square-check-big"><path d="M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344"/><path d="m9 11 3 3L22 4"/></svg>
+                <div class="status-dot"></div> </div>
+            <h1 class="text-heading-lg" data-title></h1> <p class="text-sub-info" data-info></p> </div>
+
+        <div class="app-auth-card__selector"> <button id="loginTab" class="active">Login</button> <button id="signupTab">Sign Up</button> </div>
+
+        <form id="authForm">
+            <div id="form-fields-container"> </div>
+
+            <div class="app-auth-card__buttons"> <button class="btn-secondary" type="button"> <img src="/asset/question-icon.jpg" alt="help icon">
+                    Help ?
+                </button>
+                <button type="submit" id="cta-submit-btn" data-submit-btn></button> </div>
+        </form>
+
+        <div class="app-auth-card__legal"> <span>
+                By continuing, you agree to our <a href="">Terms of Service</a> & <a href="">Privacy Policy</a>
+            </span>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

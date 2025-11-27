@@ -1,0 +1,22 @@
+button {
+	cursor: pointer;
+}
+
+body {
+	font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+	--text-xlg: 1.875rem;
+	--text-lg: 1.5rem;
+	--text-m: 1rem;
+	--text-s: 0.875rem;
+	--text-xs: 0.75rem;
+}
+
+
+@media (max-width: 768px) {
+	:root {
+		font-size: 0.78rem;
+	}
+}
